@@ -44,11 +44,11 @@
 
     <!--Navbar-->
     <nav>
-        <a href="#" class="active">Inicio</a>
+        <a href="index.html">Inicio</a>
         <a href="venta.html">Venta</a>
         <a href="alquiler.html">Alquiler</a>
         <a href="taller.html">Taller</a>
-        <a href="contact.html">Contacto</a>
+        <a href="#" class="active">Contacto</a>
     </nav>
 </header>
 <!--Fin Navbar-->
@@ -57,56 +57,53 @@
 <!--<aside></aside>-->
 <!--Fin Barra lateral-->
 
-<!--Section banner-->
-<section class="banner" style="background-image: url('src/banner_valencia.jpg');">
-    <!--<img src="src/banner_valencia.jpg" alt="valencia" style="width: 100%; height: auto;">-->
-    <!--Era necesario redimensionar la imagen para que no ocupase toda la pantalla-->
-    <!--Esta imagen va de backgroun-image de la seccion banner-->
-    <p class="eslogan">Para que te miren al pasar</p>
-</section>
-<!--End Section banner-->
-
 <!--Section-->
 <section>
-    <h3>Secciones de nuestra tienda</h3>
+    <h3>Contacto</h3>
 
+    <!--Tabla-->
     <table>
         <tr>
             <td>
                 <!--Article-->
                 <article>
-                    <a href="venta.html">Venta</a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d228.88048376358893!2d-0.3585855434589615!3d39.48205824858572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1540139131649"
+                            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </article>
                 <!--Fin Article-->
             </td>
-
             <td>
                 <!--Article-->
                 <article>
-                    <a href="alquiler.html">Alquiler</a>
-                </article>
-                <!--Fin Article-->
-            </td>
+                    <form action="#">
+                        <!--nombre apellidos email telefono descripcion-->
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Nombre" required><br>
 
-            <td>
-                <!--Article-->
-                <article>
-                    <a href="taller.html">Taller</a>
-                </article>
-                <!--Fin Article-->
-            </td>
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" placeholder="Apellidos" required><br>
 
-            <td>
-                <!--Article-->
-                <article>
-                    <a href="contact.html">Contacto</a>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Email" required><br>
+
+                        <label for="telefono">Teléfono:</label>
+                        <input type="number" id="telefono" placeholder="Teléfono" required><br>
+
+                        <label for="consulta">Consulta:</label>
+                        <textarea name="consulta" placeholder="Escribe aquí tu consulta" id="consulta" cols="100"
+                                  rows="10"></textarea>
+
+                        <button type="submit" name="Contacto"></button>
+                    </form>
                 </article>
                 <!--Fin Article-->
             </td>
         </tr>
     </table>
+    <!--Fin Tabla-->
 </section>
-<!--End Section-->
+<!--Fin Section-->
+
 
 <!--Footer-->
 <footer>
