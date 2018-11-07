@@ -1,0 +1,19 @@
+body{
+    background-color: #040404;
+    color: #E8D31E;
+}
+
+h1{
+}
+
+article{
+    float: left;
+}
+
+article#formacion{
+    background-color: #151C53;
+}
+
+article#personal, article#experiencia{
+    background-color: #6D787E;
+}
