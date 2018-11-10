@@ -10,10 +10,10 @@ article{
     float: left;
 }
 
-article#formacion{
+#formacion{
     background-color: #151C53;
 }
 
-article#personal, article#experiencia{
+#personal, #experiencia{
     background-color: #6D787E;
 }
