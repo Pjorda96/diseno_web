@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Ejercicio posicionamiento float</title>
+    <style type="text/css">
+        div {
+            position: absolute;
+            border: solid black 3px;
+            padding: 5px;
+        }
+        #h1 {
+            top: 100px;
+            left: 150px;
+        }
+        div.casa {
+            height: 150px;
+            width: 200px;
+            background-color: grey;
+        }
+        div.tejado {
+            height: 30px;
+            width: 220px;
+            background-color: red;
+            top: -53px;
+            left: -18px;
+            position: relative;
+        }
+        div.puerta{
+            height: 50px;
+            width: 50px;
+            background-color: darkred;
+            top: 45px;
+            left: 65px;
+            position: relative;
+        }
+        div.ventana{
+            height: 30px;
+            width: 30px;
+            background-color: blue;
+            top: -80px;
+            left: 5px;
+            position: relative;
+        }
+        div.ventana2{
+            height: 30px;
+            width: 30px;
+            background-color: blue;
+            top: -90px;
+            left: 145px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div id="h1" class="casa">
+    <div class="tejado"></div>
+    <div class="puerta"><h1>120</h1></div>
+    <div class="ventana"></div>
+    <div class="ventana2"></div>
+</div>
+</body>
+</html>
