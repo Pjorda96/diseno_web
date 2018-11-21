@@ -1,0 +1,81 @@
+﻿body {
+    color: #888;
+    font: normal 16px/32px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*1*/
+.cabecera, .pie {
+    float: right;
+    /*2*/
+    color: #801515;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+/*3*/
+.cabecera a:hover, .pie a:hover {
+    background-color: #336699;
+}
+
+/*4*/
+h1 > a {
+    text-decoration: none;
+    color: #550000;
+    text-transform: uppercase;
+}
+
+/*5*/
+h1.home {
+    float: left;
+    border-top: 4px solid #550000;
+    margin-bottom: 30px;
+}
+
+/*6*/
+.descripcion {
+    clear: both;
+}
+
+/*7*/
+.descripcion > h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #801515;
+    margin-top: 70px;
+}
+
+/*8*/
+h2, h3, h5 {
+    text-align: center;
+    margin: 30px;
+    color: #550000;
+}
+
+/*9*/
+.contenido {
+    float: left;
+    width: 33%;
+    margin-bottom: 80px;
+}
+
+/*10*/
+p {
+    margin: 0 20px;
+    text-align: justify;
+}
+
+/*11*/
+.contenido > a {
+    float: right;
+    margin: 0 15px;
+}
+
+/*12*/
+.pie {
+    clear: both;
+}
+
+/*13*/
+section > a{
+    color: #550000;
+}
