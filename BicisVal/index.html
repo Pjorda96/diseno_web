@@ -7,32 +7,32 @@
     <!--Iconos de Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
           integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
 
 <!--Navbar-->
 <header class="header">
     <!--Logo de la empresa-->
-    <img src="src/LetterB.png" class="logo" alt="BicisVal" style="width: 5%; height: auto;">
-    <!--Era necesario redimensionar la imagen para que no ocupase toda la pantalla-->
+    <img src="src/LetterB.png" class="logo" alt="BicisVal">
+
+    <!--Navbar-->
+    <nav>
+        <ul>
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="venta.html">Venta</a></li>
+            <li><a href="alquiler.html">Alquiler</a></li>
+            <li><a href="taller.html">Taller</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
 
     <!--Formulario para buscar-->
     <div class="search">
         <form action="#">
-            <i class="fas fa-search"></i>
             <input type="text" placeholder="Buscar.." name="buscar">
+            <i class="fas fa-search"></i>
         </form>
-    </div>
-
-    <!--Selector de idioma-->
-    <!--<select name="idioma" class="idioma">
-        <option value="castellano">Castellano</option>
-        <option value="valenciano" href="index_valenciano.html">Valenciano</option>
-    </select>-->
-
-    <div>
-        <a href="">Castellano</a>
-        <a href="index_valenciano.html">Valenciano</a>
     </div>
 
     <!--Login-->
@@ -42,14 +42,12 @@
         </button>
     </div>
 
-    <!--Navbar-->
-    <nav>
-        <a href="#" class="active">Inicio</a>
-        <a href="venta.html">Venta</a>
-        <a href="alquiler.html">Alquiler</a>
-        <a href="taller.html">Taller</a>
-        <a href="contact.html">Contacto</a>
-    </nav>
+    <div class="idioma">
+        <a href="">Castellano</a>
+        <a href="index_valenciano.html">Valenciano</a>
+    </div>
+
+    <div class="clearboth"></div>
 </header>
 <!--Fin Navbar-->
 
@@ -58,10 +56,7 @@
 <!--Fin Barra lateral-->
 
 <!--Section banner-->
-<section class="banner" style="background-image: url('src/banner_valencia.jpg');">
-    <!--<img src="src/banner_valencia.jpg" alt="valencia" style="width: 100%; height: auto;">-->
-    <!--Era necesario redimensionar la imagen para que no ocupase toda la pantalla-->
-    <!--Esta imagen va de backgroun-image de la seccion banner-->
+<section class="banner">
     <p class="eslogan">Para que te miren al pasar</p>
 </section>
 <!--End Section banner-->

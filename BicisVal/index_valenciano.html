@@ -7,32 +7,21 @@
     <!--Iconos de Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
           integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
 
 <!--Navbar-->
 <header class="header">
     <!--Logo de la empresa-->
-    <img src="src/LetterB.png" class="logo" alt="BicisVal" style="width: 5%; height: auto;">
-    <!--Era necesario redimensionar la imagen para que no ocupase toda la pantalla-->
+    <img src="src/LetterB.png" class="logo" alt="BicisVal">
 
     <!--Formulario para buscar-->
     <div class="search">
         <form action="#">
-            <i class="fas fa-search"></i>
             <input type="text" placeholder="Buscar.." name="buscar">
+            <i class="fas fa-search"></i>
         </form>
-    </div>
-
-    <!--Selector de idioma-->
-    <!--<select name="idioma" class="idioma">
-        <option value="castellano"><a href="index.html">Castellà</a></option>
-        <option value="valenciano">Valencià</option>
-    </select>-->
-
-    <div>
-        <a href="index.html">Castellà</a>
-        <a href="">Valencià</a>
     </div>
 
     <!--Login-->
@@ -42,19 +31,28 @@
         </button>
     </div>
 
+    <div class="idioma">
+        <a href="index.html">Castellà</a>
+        <a href="">Valencià</a>
+    </div>
+
+    <div class="clearboth"></div>
+
     <!--Navbar-->
     <nav>
-        <a href="#" class="active">Inici</a>
-        <a href="venta.html">Venda</a>
-        <a href="alquiler.html">Lloguer</a>
-        <a href="taller.html">Taller</a>
-        <a href="contact.html">Contacte</a>
+        <ul>
+            <li class="active"><a href="#">Inici</a></li>
+            <li><a href="venta.html">Venda</a></li>
+            <li><a href="alquiler.html">Lloguer</a></li>
+            <li><a href="taller.html">Taller</a></li>
+            <li><a href="contact.html">Contacte</a></li>
+        </ul>
     </nav>
 </header>
 <!--Fin Navbar-->
 
 <!--Section banner-->
-<section class="banner" style="background-image: url('src/banner_valencia.jpg');">
+<section class="banner">
 
     <p class="eslogan">Per a que et miren al pasar</p>
 </section>

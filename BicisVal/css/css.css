@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #6D787E;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+header img {
+    width: 5%;
+    height: auto;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.idioma, .login{
+    float: right;
+}
+
+.search, header img {
+    float: left;
+}
+
+.clearboth {
+    clear: both;
+}
+
+.banner {
+    background-image: url('../src/banner_valencia.jpg');
+    width: auto;
+    height: 500px;
+}
+
+.banner p {
+    text-align: center;
+}
