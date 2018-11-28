@@ -42,10 +42,17 @@
         </button>
     </div>
 
-    <div class="idioma">
+    <!--Idioma-->
+    <form action="index_valenciano.html" name="idioma" class="idioma" id="idioma">
+        <select name="idioma">
+            <option value="castellano">Castellano</option>
+            <option value="valenciano" onclick="submit();">Valenciano</option>
+        </select>
+    </form>
+    <!--<div class="idioma">
         <a href="">Castellano</a>
         <a href="index_valenciano.html">Valenciano</a>
-    </div>
+    </div>-->
 
     <div class="clearboth"></div>
 </header>
@@ -126,5 +133,10 @@
 </footer>
 <!--Fin Footer-->
 
+<script>
+    function submit() {
+      document.getElementById("idioma").submit();
+    }
+</script>
 </body>
 </html>
