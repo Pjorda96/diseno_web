@@ -16,47 +16,49 @@
     <!--Logo de la empresa-->
     <img src="src/LetterB.png" class="logo" alt="BicisVal">
 
-    <!--Navbar-->
-    <nav>
-        <ul>
-            <li class="active"><a href="#">Inicio</a></li>
-            <li><a href="venta.html">Venta</a></li>
-            <li><a href="alquiler.html">Alquiler</a></li>
-            <li><a href="taller.html">Taller</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-        </ul>
-    </nav>
+    <div class="topbar">
+        <!--Navbar-->
+        <nav>
+            <ul>
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="venta.html">Venta</a></li>
+                <li><a href="alquiler.html">Alquiler</a></li>
+                <li><a href="taller.html">Taller</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
 
-    <!--Formulario para buscar-->
-    <div class="search">
-        <form action="#">
-            <input type="text" placeholder="Buscar.." name="buscar">
-            <i class="fas fa-search"></i>
+        <!--Login-->
+        <div class="login">
+            <button>
+                <i class="fas fa-user"></i> Entra
+            </button>
+        </div>
+
+        <!--Idioma-->
+        <form action="index_valenciano.html" name="idioma" class="idioma" id="idioma" onchange="submit()">
+            <select name="idioma">
+                <option value="castellano" selected>Castellano</option>
+                <option value="valenciano">Valenciano</option>
+            </select>
         </form>
-    </div>
+        <!--<div class="idioma">
+            <a href="">Castellano</a>
+            <a href="index_valenciano.html">Valenciano</a>
+        </div>-->
 
-    <!--Login-->
-    <div class="login">
-        <button>
-            <i class="fas fa-user"></i> Entra
-        </button>
+        <!--Formulario para buscar-->
+        <div class="search">
+            <form action="#">
+                <input type="text" placeholder="Buscar.." name="buscar">
+                <i class="fas fa-search"></i>
+            </form>
+        </div>
     </div>
-
-    <!--Idioma-->
-    <form action="index_valenciano.html" name="idioma" class="idioma" id="idioma" onchange="submit()">
-        <select name="idioma">
-            <option value="castellano">Castellano</option>
-            <option value="valenciano">Valenciano</option>
-        </select>
-    </form>
-    <!--<div class="idioma">
-        <a href="">Castellano</a>
-        <a href="index_valenciano.html">Valenciano</a>
-    </div>-->
 
     <div class="clearboth"></div>
 </header>
-<!--Fin Navbar-->
+<!--Fin Header-->
 
 <!--Barra lateral -->
 <!--<aside></aside>-->

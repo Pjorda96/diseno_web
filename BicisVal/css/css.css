@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    font-family: 'Hind',sans-serif;
 }
 
 header {
-    background-color: #6D787E;
+    background-color: #333;
 }
 
 nav {
@@ -39,6 +40,10 @@ header img {
     height: auto;
 }
 
+.logo {
+    float: left;
+}
+
 .active {
     background-color: #4CAF50;
 }
@@ -48,7 +53,7 @@ header img {
 }
 
 .search, header img {
-    float: left;
+    float: right;
 }
 
 .clearboth {
@@ -56,11 +61,17 @@ header img {
 }
 
 .banner {
-    background-image: url('../src/banner_valencia.jpg');
+    /*background-image: url('../src/banner_valencia.jpg');*/
+    background-color: #384db3;
     width: auto;
     height: 500px;
 }
 
-.banner p {
+.banner .eslogan {
     text-align: center;
+    text-transform: capitalize;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    padding-top: 100px;
 }
