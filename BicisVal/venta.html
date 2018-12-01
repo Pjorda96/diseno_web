@@ -11,46 +11,44 @@
 </head>
 <body>
 
-<!--Navbar-->
+<!--Header-->
 <header class="header">
     <!--Logo de la empresa-->
-    <img src="src/LetterB.png" class="logo" alt="BicisVal" style="width: 5%; height: auto;">
-    <!--Era necesario redimensionar la imagen para que no ocupase toda la pantalla-->
+    <img src="src/LetterB.png" class="logo" alt="BicisVal">
 
-    <!--Formulario para buscar-->
-    <div class="search">
-        <form action="#">
-            <i class="fas fa-search"></i>
-            <input type="text" placeholder="Buscar.." name="buscar">
+    <div class="topbar">
+        <!--Login-->
+        <button class="login">
+            <i class="fas fa-user"></i> Entra
+        </button>
+
+        <!--Idioma-->
+        <form action="index_valenciano.html" name="idioma" class="idioma" id="idioma" onchange="submit()">
+            <select name="idioma">
+                <option value="castellano" selected>Castellano</option>
+                <option value="valenciano">Valenciano</option>
+            </select>
+        </form>
+
+        <!--Formulario para buscar-->
+        <form action="#" class="search">
+            <input type="search" placeholder="Buscar.." name="buscar">
         </form>
     </div>
 
-    <div>
-        <a href="">Castellano</a>
-        <a href="">Valenciano</a>
-    </div>
-
-    <!--Login-->
-    <div class="login">
-        <button>
-            <i class="fas fa-user"></i> Entra
-        </button>
-    </div>
+    <div class="clearboth"></div>
 
     <!--Navbar-->
     <nav>
         <a href="index.html">Inicio</a>
-        <a href="#">Venta</a>
-        <a href="alquiler.html" class="active">Alquiler</a>
+        <a href="venta.html" class="active">Venta</a>
+        <a href="alquiler.html">Alquiler</a>
         <a href="taller.html">Taller</a>
         <a href="contact.html">Contacto</a>
     </nav>
+    <!--Fin Navbar-->
 </header>
-<!--Fin Navbar-->
-
-<!--Barra lateral -->
-<!--<aside></aside>-->
-<!--Fin Barra lateral-->
+<!--Fin Header-->
 
 <!--Section-->
 <section>

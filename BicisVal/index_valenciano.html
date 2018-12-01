@@ -11,45 +11,44 @@
 </head>
 <body>
 
-<!--Navbar-->
+<!--Header-->
 <header class="header">
     <!--Logo de la empresa-->
     <img src="src/LetterB.png" class="logo" alt="BicisVal">
 
-    <!--Formulario para buscar-->
-    <div class="search">
-        <form action="#">
-            <input type="text" placeholder="Buscar.." name="buscar">
-            <i class="fas fa-search"></i>
-        </form>
-    </div>
-
-    <!--Login-->
-    <div class="login">
-        <button>
+    <div class="topbar">
+        <!--Login-->
+        <button class="login">
             <i class="fas fa-user"></i> Entra
         </button>
-    </div>
 
-    <div class="idioma">
-        <a href="index.html">Castellà</a>
-        <a href="">Valencià</a>
+        <!--Idioma-->
+        <form action="index.html" name="idioma" class="idioma" id="idioma" onchange="submit()">
+            <select name="idioma">
+                <option value="castellano">Castellà</option>
+                <option value="valenciano" selected>Valencià</option>
+            </select>
+        </form>
+
+        <!--Formulario para buscar-->
+        <form action="#" class="search">
+            <input type="search" placeholder="Buscar.." name="buscar">
+        </form>
     </div>
 
     <div class="clearboth"></div>
 
     <!--Navbar-->
     <nav>
-        <ul>
-            <li class="active"><a href="#">Inici</a></li>
-            <li><a href="venta.html">Venda</a></li>
-            <li><a href="alquiler.html">Lloguer</a></li>
-            <li><a href="taller.html">Taller</a></li>
-            <li><a href="contact.html">Contacte</a></li>
-        </ul>
+        <a href="index.html" class="active">Inici</a>
+        <a href="venta.html">Venda</a>
+        <a href="alquiler.html">Lloguer</a>
+        <a href="taller.html">Taller</a>
+        <a href="contact.html">Contacte</a>
     </nav>
+    <!--Fin Navbar-->
 </header>
-<!--Fin Navbar-->
+<!--Fin Header-->
 
 <!--Section banner-->
 <section class="banner">
