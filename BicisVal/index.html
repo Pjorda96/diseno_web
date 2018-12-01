@@ -17,23 +17,10 @@
     <img src="src/LetterB.png" class="logo" alt="BicisVal">
 
     <div class="topbar">
-        <!--Navbar-->
-        <nav>
-            <ul>
-                <li class="active"><a href="#">Inicio</a></li>
-                <li><a href="venta.html">Venta</a></li>
-                <li><a href="alquiler.html">Alquiler</a></li>
-                <li><a href="taller.html">Taller</a></li>
-                <li><a href="contact.html">Contacto</a></li>
-            </ul>
-        </nav>
-
         <!--Login-->
-        <div class="login">
-            <button>
-                <i class="fas fa-user"></i> Entra
-            </button>
-        </div>
+        <button class="login">
+            <i class="fas fa-user"></i> Entra
+        </button>
 
         <!--Idioma-->
         <form action="index_valenciano.html" name="idioma" class="idioma" id="idioma" onchange="submit()">
@@ -42,21 +29,25 @@
                 <option value="valenciano">Valenciano</option>
             </select>
         </form>
-        <!--<div class="idioma">
-            <a href="">Castellano</a>
-            <a href="index_valenciano.html">Valenciano</a>
-        </div>-->
 
         <!--Formulario para buscar-->
         <div class="search">
             <form action="#">
-                <input type="text" placeholder="Buscar.." name="buscar">
-                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Buscar.." name="buscar">
             </form>
         </div>
     </div>
 
     <div class="clearboth"></div>
+
+    <!--Navbar-->
+    <nav>
+        <a href="#" class="active">Inicio</a>
+        <a href="venta.html">Venta</a>
+        <a href="alquiler.html">Alquiler</a>
+        <a href="taller.html">Taller</a>
+        <a href="contact.html">Contacto</a>
+    </nav>
 </header>
 <!--Fin Header-->
 
@@ -136,9 +127,9 @@
 <!--Fin Footer-->
 
 <script>
-    function submit() {
-      document.getElementById("idioma").submit();
-    }
+  function submit () {
+    document.getElementById('idioma').submit()
+  }
 </script>
 </body>
 </html>
