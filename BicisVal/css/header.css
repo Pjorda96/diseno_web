@@ -39,3 +39,22 @@ header nav a:hover {
 .active {
     background-color: #4CAF50;
 }
+
+/*Idioma*/
+select {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #FFF;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+
+form.idioma {
+    margin: 0 5px;
+    float: right;
+}
+/*End Idioma*/
