@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Hind', sans-serif;
+    background-color: #c5c5c5;
 }
 
 button {
@@ -26,4 +27,12 @@ button {
     font-weight: bold;
     color: black;
 @include transition(all .3 s ease);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
