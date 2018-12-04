@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Hind', sans-serif;
-    background-color: #c5c5c5;
+    background-color: #cdcdcd;
 }
 
 button {
@@ -29,36 +29,48 @@ button {
 @include transition(all .3 s ease);
 }
 
-.venta {
+section {
     flex-wrap: wrap;
+    margin-top: 110px;
 }
 
-.venta article {
+section h2 {
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+@include transition(all .3 s ease);
+}
+
+article {
     display: flex;
     flex-wrap: wrap;
-    margin: 60px;
+    margin: 40px 9%;
     padding: 0;
     border: solid .5px black;
     width: 460px;
     height: 480px;
-    background-color: white;
+    background-color: #f9f9f9;
+    float: left;
 }
 
-.venta article img {
+article img {
     width: 460px;
     height: 350px;
 }
 
-.venta article h4 {
+article h4 {
     width: 100%;
     text-align: center;
     margin: 10px 0;
 }
 
-.venta article a {
+article a {
     color: red;
 }
 
-.venta article a:hover {
+article a:hover {
     color: yellow;
 }
