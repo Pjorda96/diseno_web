@@ -5,20 +5,20 @@
     <title>BicisVal</title>
 
     <!--Iconos de Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-          integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/search.css">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+          integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/banner.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
 </head>
 <body>
 
 <!--Header-->
 <header class="header">
     <!--Logo de la empresa-->
-    <img src="src/LetterB.png" class="logo" alt="BicisVal">
+    <img alt="BicisVal" class="logo" src="src/LetterB.png">
 
     <div class="topbar">
         <!--Login-->
@@ -27,16 +27,16 @@
         </button>
 
         <!--Idioma-->
-        <form action="index_valenciano.html" name="idioma" class="idioma" id="idioma" onchange="submit()">
+        <form action="index_valenciano.html" class="idioma" id="idioma" name="idioma" onchange="submit()">
             <select name="idioma">
-                <option value="castellano" selected>Castellano</option>
+                <option selected value="castellano">Castellano</option>
                 <option value="valenciano">Valenciano</option>
             </select>
         </form>
 
         <!--Formulario para buscar-->
         <form action="#" class="search">
-            <input type="search" placeholder="Buscar.." name="buscar">
+            <input name="buscar" placeholder="Buscar.." type="search">
         </form>
     </div>
 
@@ -44,7 +44,7 @@
 
     <!--Navbar-->
     <nav>
-        <a href="index.html" class="active">Inicio</a>
+        <a class="active" href="index.html">Inicio</a>
         <a href="venta.html">Venta</a>
         <a href="alquiler.html">Alquiler</a>
         <a href="taller.html">Taller</a>
@@ -64,41 +64,41 @@
 <section class="tienda">
     <h3>Secciones de nuestra tienda</h3>
 
-    <table>
-        <tr>
-            <td>
-                <!--Article-->
-                <article>
-                    <a href="venta.html">Venta</a>
-                </article>
-                <!--Fin Article-->
-            </td>
+    <!--Article-->
+    <article>
+        <a href="venta.html">
+            <img alt="cadena" src="src/choper.jpg">
+            <h4>Venta</h4>
+        </a>
+    </article>
+    <!--Fin Article-->
 
-            <td>
-                <!--Article-->
-                <article>
-                    <a href="alquiler.html">Alquiler</a>
-                </article>
-                <!--Fin Article-->
-            </td>
+    <!--Article-->
+    <article>
+        <a href="alquiler.html">
+            <img alt="alquiler" src="src/choper.jpg">
+            <h4>Alquiler</h4>
+        </a>
+    </article>
+    <!--Fin Article-->
 
-            <td>
-                <!--Article-->
-                <article>
-                    <a href="taller.html">Taller</a>
-                </article>
-                <!--Fin Article-->
-            </td>
+    <!--Article-->
+    <article>
+        <a href="taller.html">
+            <img alt="taller" src="src/cadena.jpg">
+            <h4>Taller</h4>
+        </a>
+    </article>
+    <!--Fin Article-->
 
-            <td>
-                <!--Article-->
-                <article>
-                    <a href="contact.html">Contacto</a>
-                </article>
-                <!--Fin Article-->
-            </td>
-        </tr>
-    </table>
+    <!--Article-->
+    <article>
+        <a href="contact.html">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d457.7610444864823!2d-0.3584518996207926!3d39.482046555975906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1544029643969" width="460" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <h4>Contacto</h4>
+        </a>
+    </article>
+    <!--Fin Article-->
 </section>
 <!--End Section-->
 
@@ -132,8 +132,8 @@
         <li><a href=""><i class="fab fa-instagram"></i></a></li>
     </ul>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d457.7608525220193!2d-0.35842780088571213!3d39.4820757218379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1540143074903"
-            width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe allowfullscreen
+            frameborder="0" height="200" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d457.7608525220193!2d-0.35842780088571213!3d39.4820757218379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1540143074903" style="border:0" width="200"></iframe>
 </footer>
 <!--Fin Footer-->
 

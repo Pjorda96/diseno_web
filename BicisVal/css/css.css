@@ -19,7 +19,7 @@ button {
     clear: both;
 }
 
-.tienda h3{
+.tienda h3, .contacto h3{
     line-height: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -73,4 +73,34 @@ article a {
 
 article a:hover {
     color: yellow;
+}
+
+iframe.mapa {
+    display: flex;
+    margin: 40px 9%;
+    padding: 0;
+    float: left;
+}
+
+form.contacto {
+    margin: 0 auto;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form.contacto h4 {
+    font-size: 30px;
+}
+
+form.contacto input {
+    position: relative;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 13px;
+}
+
+form.contacto input:hover {
+    z-index: 2;
 }

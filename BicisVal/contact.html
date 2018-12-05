@@ -5,20 +5,20 @@
     <title>BicisVal</title>
 
     <!--Iconos de Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-          integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/search.css">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+          integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/banner.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
 </head>
 <body>
 
 <!--Header-->
 <header class="header">
     <!--Logo de la empresa-->
-    <img src="src/LetterB.png" class="logo" alt="BicisVal">
+    <img alt="BicisVal" class="logo" src="src/LetterB.png">
 
     <div class="topbar">
         <!--Login-->
@@ -27,16 +27,16 @@
         </button>
 
         <!--Idioma-->
-        <form action="index_valenciano.html" name="idioma" class="idioma" id="idioma" onchange="submit()">
+        <form action="index_valenciano.html" class="idioma" id="idioma" name="idioma" onchange="submit()">
             <select name="idioma">
-                <option value="castellano" selected>Castellano</option>
+                <option selected value="castellano">Castellano</option>
                 <option value="valenciano">Valenciano</option>
             </select>
         </form>
 
         <!--Formulario para buscar-->
         <form action="#" class="search">
-            <input type="search" placeholder="Buscar.." name="buscar">
+            <input name="buscar" placeholder="Buscar.." type="search">
         </form>
     </div>
 
@@ -48,55 +48,46 @@
         <a href="venta.html">Venta</a>
         <a href="alquiler.html">Alquiler</a>
         <a href="taller.html">Taller</a>
-        <a href="contact.html" class="active">Contacto</a>
+        <a class="active" href="contact.html">Contacto</a>
     </nav>
     <!--Fin Navbar-->
 </header>
 <!--Fin Header-->
 
 <!--Section-->
-<section>
+<section class="contacto">
     <h3>Contacto</h3>
 
     <!--Tabla-->
-    <table>
-        <tr>
-            <td>
-                <!--Article-->
-                <article>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d228.88048376358893!2d-0.3585855434589615!3d39.48205824858572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1540139131649"
-                            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </article>
-                <!--Fin Article-->
-            </td>
-            <td>
-                <!--Article-->
-                <article>
-                    <form action="#">
-                        <!--nombre apellidos email telefono descripcion-->
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" placeholder="Nombre" required><br>
+    <iframe allowfullscreen class="mapa"
+            frameborder="0" height="480"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d457.7610444864823!2d-0.3584518996207926!3d39.482046555975906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1544029643969"
+            style="border:0" width="460"></iframe>
+    <!--Article-->
+    <article>
+        <form action="#" class="contacto">
+            <h4>Contacta con nosotros</h4>
 
-                        <label for="apellidos">Apellidos:</label>
-                        <input type="text" id="apellidos" placeholder="Apellidos" required><br>
+            <label for="nombre">Nombre:</label><br>
+            <input id="nombre" placeholder="Nombre" required type="text"><br>
 
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" placeholder="Email" required><br>
+            <label for="apellidos">Apellidos:</label><br>
+            <input id="apellidos" placeholder="Apellidos" required type="text"><br>
 
-                        <label for="telefono">Teléfono:</label>
-                        <input type="number" id="telefono" placeholder="Teléfono" required><br>
+            <label for="email">Email:</label><br>
+            <input id="email" placeholder="Email" required type="email"><br>
 
-                        <label for="consulta">Consulta:</label>
-                        <textarea name="consulta" placeholder="Escribe aquí tu consulta" id="consulta" cols="100"
-                                  rows="10"></textarea>
+            <label for="telefono">Teléfono:</label><br>
+            <input id="telefono" placeholder="Teléfono" required type="number"><br>
 
-                        <button type="submit" name="Contacto"></button>
-                    </form>
-                </article>
-                <!--Fin Article-->
-            </td>
-        </tr>
-    </table>
+            <label for="consulta">Consulta:</label><br>
+            <textarea cols="60" id="consulta" name="consulta" placeholder="Escribe aquí tu consulta"
+                      rows="7"></textarea>
+
+            <button name="enviar" type="submit">Enviar</button>
+        </form>
+    </article>
+    <!--Fin Article-->
     <!--Fin Tabla-->
 </section>
 <!--Fin Section-->
@@ -132,8 +123,10 @@
         <li><a href=""><i class="fab fa-instagram"></i></a></li>
     </ul>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d457.7608525220193!2d-0.35842780088571213!3d39.4820757218379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1540143074903"
-            width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe allowfullscreen
+            frameborder="0" height="200"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d457.7608525220193!2d-0.35842780088571213!3d39.4820757218379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1540143074903"
+            style="border:0" width="200"></iframe>
 </footer>
 <!--Fin Footer-->
 
