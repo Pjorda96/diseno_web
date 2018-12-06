@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Cabin', sans-serif;
     background-color: #cdcdcd;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #DA121A;
     border: none;
-    color: white;
+    color: #FCDD09;
     padding: 10px 20px;
     text-align: center;
     font-size: 16px;
@@ -31,7 +31,11 @@ button {
 
 section {
     flex-wrap: wrap;
-    margin-top: 110px;
+    margin-top: 170px;
+}
+
+section.banner {
+    margin-top: 130px;
 }
 
 section h2 {
@@ -68,11 +72,11 @@ article h4 {
 }
 
 article a {
-    color: red;
+    color: #DA121A;
 }
 
 article a:hover {
-    color: yellow;
+    color: #FCDD09;
 }
 
 iframe.mapa {

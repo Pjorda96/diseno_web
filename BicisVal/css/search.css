@@ -27,7 +27,7 @@ form.search input::-webkit-search-cancel-button {
 form.search input[type=search]:focus {
     width: 130px;
     background-color: #fff;
-    border-color: #4CAF50;
+    border-color: #DA121A;
 
     -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
     -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
