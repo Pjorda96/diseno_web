@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    background-color: #cdcdcd;
+}
+
+button {
+    background-color: #DA121A;
+    border: none;
+    color: #FCDD09;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 5px;
+    float: right;
+}
+
+.clearboth {
+    clear: both;
+}
+
+.tienda h3, .contacto h3{
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+@include transition(all .3 s ease);
+}
+
+section {
+    flex-wrap: wrap;
+    margin-top: 170px;
+}
+
+section.banner {
+    margin-top: 130px;
+}
+
+section h2 {
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+@include transition(all .3 s ease);
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 9%;
+    padding: 0;
+    border: solid .5px black;
+    width: 460px;
+    height: 480px;
+    background-color: #f9f9f9;
+    float: left;
+}
+
+article img {
+    width: 460px;
+    height: 350px;
+}
+
+article h4 {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+article a {
+    color: #DA121A;
+}
+
+article a:hover {
+    color: #FCDD09;
+}
+
+iframe.mapa {
+    display: flex;
+    margin: 40px 9%;
+    padding: 0;
+    float: left;
+}
+
+form.contacto {
+    margin: 0 auto;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form.contacto h4 {
+    font-size: 30px;
+}
+
+form.contacto input {
+    position: relative;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 13px;
+}
+
+form.contacto input:hover {
+    z-index: 2;
+}

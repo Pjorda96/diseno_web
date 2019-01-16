@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BicisVal</title>
+
+    <!--Iconos de Font Awesome-->
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+          integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/banner.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Header-->
+<header class="header">
+    <!--Logo de la empresa-->
+    <img alt="BicisVal" class="logo" src="src/bike.png">
+
+    <div class="topbar">
+        <!--Login-->
+        <button class="login">
+            <i class="fas fa-user"></i> Entra
+        </button>
+
+        <!--Idioma-->
+        <form action="index_valenciano.html" class="idioma" id="idioma" name="idioma" onchange="submit()">
+            <select name="idioma">
+                <option selected value="castellano">Castellano</option>
+                <option value="valenciano">Valenciano</option>
+            </select>
+        </form>
+
+        <!--Formulario para buscar-->
+        <form action="#" class="search">
+            <input name="buscar" placeholder="Buscar.." type="search">
+        </form>
+    </div>
+
+    <div class="clearboth"></div>
+
+    <!--Navbar-->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="venta.html">Venta</a>
+        <a href="alquiler.html">Alquiler</a>
+        <a href="taller.html">Taller</a>
+        <a class="active" href="contact.html">Contacto</a>
+    </nav>
+    <!--Fin Navbar-->
+</header>
+<!--Fin Header-->
+
+<!--Section-->
+<section class="contacto">
+    <h3>Contacto</h3>
+
+    <!--Tabla-->
+    <iframe allowfullscreen class="mapa"
+            frameborder="0" height="480"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d457.7610444864823!2d-0.3584518996207926!3d39.482046555975906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1544029643969"
+            style="border:0" width="460"></iframe>
+    <!--Article-->
+    <article>
+        <form action="#" class="contacto">
+            <h4>Contacta con nosotros</h4>
+
+            <label for="nombre">Nombre:</label><br>
+            <input id="nombre" placeholder="Nombre" required type="text"><br>
+
+            <label for="apellidos">Apellidos:</label><br>
+            <input id="apellidos" placeholder="Apellidos" required type="text"><br>
+
+            <label for="email">Email:</label><br>
+            <input id="email" placeholder="Email" required type="email"><br>
+
+            <label for="telefono">Teléfono:</label><br>
+            <input id="telefono" placeholder="Teléfono" required type="number"><br>
+
+            <label for="consulta">Consulta:</label><br>
+            <textarea cols="60" id="consulta" name="consulta" placeholder="Escribe aquí tu consulta"
+                      rows="7"></textarea>
+
+            <button name="enviar" type="submit">Enviar</button>
+        </form>
+    </article>
+    <!--Fin Article-->
+    <!--Fin Tabla-->
+</section>
+<!--Fin Section-->
+
+
+<!--Footer-->
+<footer>
+    <ul class="nav">
+        <li><h4>Accesos</h4></li>
+        <li><p><a href="index.html">Inicio</a></p></li>
+        <li><p><a href="venta.html">Venta</a></p></li>
+        <li><p><a href="alquiler.html">Alquiler</a></p></li>
+        <li><p><a href="taller.html">Taller</a></p></li>
+        <li><p><a href="contact.html">Contacto</a></p></li>
+    </ul>
+
+    <ul class="contact">
+        <li><h4>Información de contacto</h4></li>
+        <li>
+            <h5>Email:</h5>
+            <p>bicisval@gmail.com</p>
+        </li>
+        <li>
+            <h5>Teléfono:</h5>
+            <p>123456789</p>
+        </li>
+    </ul>
+
+    <ul class="sn">
+        <li><h4>Redes sociales</h4></li>
+        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+        <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+    </ul>
+
+    <iframe allowfullscreen
+            frameborder="0" height="200"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d457.7608525220193!2d-0.35842780088571213!3d39.4820757218379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1540143074903"
+            style="border:0" width="200"></iframe>
+</footer>
+<!--Fin Footer-->
+
+</body>
+</html>
