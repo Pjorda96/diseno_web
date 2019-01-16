@@ -1,0 +1,17 @@
+body {
+    background-color: #ffffff;
+}
+
+#logo {
+    width: 30px;
+    height: auto;
+}
+
+footer i {
+    margin-bottom: 10px;
+}
+
+#logo_footer {
+    height: 150px;
+    width: auto;
+}
