@@ -5,41 +5,43 @@
     <title>GA</title>
 
     <!--Bootstrap-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="css/bootstrap.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
-
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<!--Navbar-->
 <nav class="navbar navbar-default">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- Móvil responsive -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
+            <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1"
+                    data-toggle="collapse" type="button">
+                <span class="sr-only">Barra navegación</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand .col-md-3" href="#">
-                <img id="logo" alt="Logo" src="https://avatars0.githubusercontent.com/u/32122694?s=400&v=4">
+                <img alt="Logo" id="logo" src="src/ga.png">
             </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse .col-offset-3" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Primera <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Segunda</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Idioma <span class="caret"></span></a>
+                    <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#"
+                       role="button">Idioma <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Castellano</a></li>
                         <li><a href="indexEnglish.html">Inglés</a></li>
@@ -48,41 +50,37 @@
             </ul>
             <form class="navbar-form navbar-left navbar-right">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <input class="form-control" placeholder="Search" type="text">
                 </div>
-                <button type="submit" class="btn btn-default">Buscar</button>
+                <button class="btn btn-default" type="submit">Buscar</button>
             </form>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
-<!--Fin Navbar-->
-
 
 
 <footer class="container-fluid">
-    <div class="row well">
-        <div class="col-md-3 col-sm-6">
-        <address>
-            <h3>¿Dónde estamos?</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d770.719943815571!2d-0.4134570196698935!3d39.40422592014308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604e8013cddedd%3A0xec40b012dc3a78c3!2sFlorida+Secundaria!5e0!3m2!1ses!2ses!4v1547677207083" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </address>
-    </div>
-        <div class="col-md-3 col-sm-6">
-            <h3>Redes Sociales</h3>
-            <i class="fab fa-twitter fa-3x"></i><br>
-            <i class="fab fa-facebook-f fa-3x"></i><br>
-            <i class="fab fa-instagram fa-3x"></i><br>
+    <div class="row well footer">
+        <div class="col-md-12 footer-2-col">
+            <div class="col-md-3 col-md-offset-3 col-sm-6">
+                <i class="fab fa-twitter fa-3x"></i>
+                <i class="fab fa-facebook-f fa-3x"></i>
+                <i class="fab fa-instagram fa-3x"></i>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h3>Contacto</h3>
+                Tel:(123)456-7890<br>
+                c/Calle Falsa, 123<br>
+                <a href="mailto:hola@gallery-art.com" title="hola@gallery-art.com">hola@gallery-art.com</a><br>
+            </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-            <h3>Contacto</h3>
-            Tel:(123)456-7890<br>
-            c/Calle Falsa, 123<br>
-            <a href="mailto:hola@gallery-art.com" title="hola@gallery-art.com">hola@gallery-art.com</a><br>
+        <div class="col-md-12 col-sm-12">
+            <address>
+                <iframe allowfullscreen
+                        frameborder="0" height="150" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d770.719943815571!2d-0.4134570196698935!3d39.40422592014308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604e8013cddedd%3A0xec40b012dc3a78c3!2sFlorida+Secundaria!5e0!3m2!1ses!2ses!4v1547677207083" style="border:0" width="100%"></iframe>
+            </address>
         </div>
-        <div class="col-md-3 col-sm-6">
-            <a href="#">
-                <img src="https://avatars0.githubusercontent.com/u/32122694?s=400&v=4" id="logo_footer" alt="logo Gallery Art" class="img-responsive">
-            </a>
+        <div class="copy">
             <p>&copy; Gallery Art, 2017</p>
         </div>
     </div>

@@ -1,5 +1,16 @@
 body {
     background-color: #ffffff;
+    color: black;
+}
+
+.navbar a {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.dropdown-menu {
+    color: white;
+    background-color: black;
 }
 
 #logo {
@@ -7,11 +18,41 @@ body {
     height: auto;
 }
 
-footer i {
-    margin-bottom: 10px;
+.navbar, .footer {
+    color: white;
+    background-color: black;
 }
 
-#logo_footer {
-    height: 150px;
-    width: auto;
+footer, footer div {
+    padding: 0;
+}
+
+footer i {
+    margin-left: 10px;
+}
+footer i:hover {
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.active {
+    color: black;
+    font-weight: bold;
+    background-color: #646464 !important; /*Esto no funciona*/
+}
+
+.copy {
+    display: block;
+    text-align: center;
+}
+
+.footer-2-col {
+    text-align: center;
+}
+
+.qsomos p{
+    text-align: justify;
 }
