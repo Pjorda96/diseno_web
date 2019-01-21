@@ -87,8 +87,37 @@
                 risus nisi.</p>
         </div>
     </article>
-    <article class="col-md-5 col-md-offset-1">
+    <article class="col-md-5 col-md-offset-1 hidden-sm hidden-xs">
         <div id="form-main">
+            <div id="form-div">
+                <form>
+                    <p class="nombre">
+                        <input name="name" type="text"
+                               class="feedback-input"
+                               placeholder="Nombre" id="name"/>
+                    </p>
+
+                    <p class="email">
+                        <input name="email" type="text" class="feedback-input"
+                               id="email" placeholder="Email"/>
+                    </p>
+
+                    <p class="text">
+                        <textarea name="text" class="feedback-input" id="comment"
+                                  placeholder="Mensaje"></textarea>
+                    </p>
+
+
+                    <div class="submit">
+                        <input type="submit" value="ENVIAR" id="button-blue"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </article>
+
+    <article class="hidden-lg hidden-md">
+        <div id="form-main-xs">
             <div id="form-div">
                 <form>
                     <p class="nombre">
