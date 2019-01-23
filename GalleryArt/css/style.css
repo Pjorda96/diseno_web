@@ -60,3 +60,7 @@ h3 {
 address{
     margin: 5px -35px;
 }
+
+audio {
+    margin: 15px;
+}
