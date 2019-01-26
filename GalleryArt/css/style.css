@@ -64,3 +64,56 @@ address{
 audio {
     margin: 15px;
 }
+
+.jumbotron {
+    background-image: url("../src/guernica.jpg");
+    background-color: black;
+    height: 400px;
+}
+
+.cards {
+    padding: 0 0 15px 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 0;
+    height: auto;
+    /*margin: 0 5px;*/
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.cards p a {
+    color: #4966C7;
+}
+
+.descripcion {
+    width: auto;
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.estilo {
+    width: 100%;
+    max-width: 350px;
+    max-height: 250px;
+}
+ .realismo {
+     background-image: url("../src/realismo.jpg");
+
+ }
