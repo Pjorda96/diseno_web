@@ -136,18 +136,9 @@ audio {
 .descripcion article {
     border: 1px solid black;
     background-color: rgba(214, 214, 214, .5);
-    height: auto;
 }
 
 .descripcion h2 {
     text-align: center;
 }
 
-.descripcion p {
-    text-align: justify;
-    white-space: pre-line;
-}
-
-.descripcion li {
-
-}
